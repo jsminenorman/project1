@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Feedback</title>
+<meta  name = "viewport" content = "width=device-width, intial-scale=1">
+<link rel = "stylesheet" href = "stylecss.css">
+</head>
+<body>
+<header>
+<div class = "container">
+<div class = "row">
+<div class = "my-logo">
+<a href = "Home.html" class = "my-name">Jasmine</a>
+</div>
+<div class = "navbar">
+<ul>
+<li><a href = "Home.html">Home</a></li>
+<li><a href = "About Me.html">About Me</a></li>
+<li><a href = "Image Gallery.html">Image Gallery</a></li>
+<li><a href = "Contact.html">Contact</a></li>
+<li><a href = "Feedback.html">Feedback</a></li>
+</ul>
+</div>
+</div>
+</div>
+</header>
+
+<section class = "subpage">
+<div class = "container">
+<div class = "row full-screen">
+<div class = "section-title">
+<h2 onmouseover="style.color='#ffff4d'" onmouseout="style.color='#ff5050'">Feedback Form</h2>
+</div>
+
+<div class = "page-content">
+
+<div class = "row">
+<div class = "feedback">
+<div class = "row">
+<div class = "form-item col-6">
+<div class = "form-group">
+<input type = "text" class = "form-control" placeholder = "Name" >
+</div>
+</div>
+<div class = "form-item col-6">
+<div class = "form-group">
+<input type = "text" class = "form-control" placeholder = "Email">
+</div>
+</div>
+</div>
+
+<div class = "row">
+<div class = "form-item col-12">
+<div class = "form-group">
+<input type = "text" class = "form-control" placeholder = "Subject">
+</div>
+</div>
+</div>
+
+<div class = "row">
+<div class = "form-item col-12">
+<div class = "form-group">
+<textarea class = "form-control" placeholder = "Feedback..." id = "input1" onfocus = "focusevent()"></textarea>
+</div>
+</div>
+</div>
+
+<div class = "row">
+<div class = "form-item col-12">
+<button type = "submit" action="submitted.html" class = "submit-btn">Submit Feedback</button>
+</div>
+</div>
+</form>
+<script>
+
+function focusevent()
+{ document.getElementById("input1").style.background="#99ccff";}
+
+</script>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</section>
+
+</body>
+</html>
